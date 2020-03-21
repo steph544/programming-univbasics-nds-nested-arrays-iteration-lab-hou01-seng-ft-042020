@@ -19,6 +19,7 @@ def find_greater_pair(src)
   inner_results = []
   while row_index < src.count do
     element_index=0
+    while element_index<src[row_index].count do
     if src[row_index][element_index] > src [row_index][element_index += 1]
       inner_results <<  src[row_index][element_index]
     elsif if src[row_index][element_index] < src [row_index][element_index += 1]
