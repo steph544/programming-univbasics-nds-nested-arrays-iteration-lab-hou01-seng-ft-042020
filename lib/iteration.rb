@@ -9,6 +9,7 @@ def join_ingredients(src)
       element_index +=1 
     end
     row_index += 1
+  end
   inner_results
 end
 
