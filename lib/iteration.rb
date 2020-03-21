@@ -38,17 +38,19 @@ end
 def total_even_pairs(src)
   total= 0 
   row_index=0 
+  inner results = []
   while row_index<src.count do
       element_index=0 
       while element_index<src[row_index].count do
         x = src[row_index][element_index] + src [row_index][element_index += 1]
         if (x%2)== 0 
-          total+= x
+          inner_results << total+=x
         end
       element_index += 1 
       end
     row_index +=1 
   end
+  inner_results
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
   # total
