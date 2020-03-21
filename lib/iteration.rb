@@ -24,7 +24,9 @@ def find_greater_pair(src)
       inner_results << x 
     elsif x<y 
       inner_results << y
-      
+    element +=1 
+  end
+  inner_results
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
