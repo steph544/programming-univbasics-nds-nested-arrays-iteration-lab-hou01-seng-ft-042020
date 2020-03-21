@@ -22,7 +22,9 @@ def find_greater_pair(src)
     y= src [row_index][element_index += 1]
     if x>y 
       inner_results << x 
-    elsif
+    elsif x<y 
+      inner_results << y
+      
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
