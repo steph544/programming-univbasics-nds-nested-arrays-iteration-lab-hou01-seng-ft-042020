@@ -26,6 +26,7 @@ def find_greater_pair(src)
       inner_results <<  src[row_index][element_index += 1] 
     element +=1 
   end
+  end
   row_index += 1 
  end
   inner_results
