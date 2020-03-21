@@ -24,6 +24,7 @@ def find_greater_pair(src)
       inner_results <<  src[row_index][element_index]
       elsif if src[row_index][element_index] < src [row_index][element_index += 1]
       inner_results <<  src[row_index][element_index += 1] 
+      end
     element +=1 
     end
     row_index += 1 
